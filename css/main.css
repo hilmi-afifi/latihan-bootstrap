@@ -1,0 +1,42 @@
+/* setting page html & body */
+html, body {scroll-behavior: smooth;} /* effect smooth scrolling default */
+body {margin: 0; font-size: 28px; font-family: 'Josefin Sans', sans-serif;}
+
+/* landing page diatas navbar */
+.header {background-image: url(../img/1.png); padding: 30px; text-align: center; min-height: 579px;}
+
+/* default setting navbar */
+#navbar {overflow: hidden; background-color: #333;}
+#navbar a {float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+#navbar a:hover {background-color: #ddd; color: black;}
+#navbar a.active {background-color: #4CAF50; color: white;}
+
+/* navbar fixed ketika scrolling (add remove class memakai JS) */
+.sticky {position: fixed; top: 0; width: 100%;}
+.sticky + .content {padding-top: 60px;}
+
+/* setting profile hilmi afifi al-atsari */
+.content {padding: 16px;}
+
+/* setting font-font */
+.hilmi-afifi {font-family: 'Simonetta', cursive;}
+.more-about {font-family: 'Chelsea Market', cursive;}
+.kolom-kolom {margin: 0 50px 20px 0; font-family: 'Josefin Sans', sans-serif; font-size: 15px;}
+.sub-judul {font-family: 'Ribeye Marrow', cursive;}
+.nothing {font-size: 50px; padding: 150px 0 0 0}
+.we {font-size: 30px;}
+
+/* setting footer */
+footer {text-align: center;}
+    
+    @media only screen and (min-width: 0px) and (max-width : 768px) {
+    /* setting font-font */
+    .hilmi-afifi {text-align: center;}
+    .more-about {text-align: center;}
+    .kolom-kolom {text-align: justify; margin: 0 5px 5px 5px;}
+    .sub-judul {font-size: 20px; text-align: center;}
+
+    .btn-lg, .btn-group-lg > .btn {padding: 10px 46px;}
+
+    .btn-default {margin: 0 89px;}
+      }
