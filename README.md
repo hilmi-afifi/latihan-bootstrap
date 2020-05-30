@@ -6,4 +6,4 @@
 
 Source code https://github.com/hilmi-afifi/latihan-bootstrap
 
-See demo http://hilmi.nut.cc/
+See demo https://node2.seribu.site/
